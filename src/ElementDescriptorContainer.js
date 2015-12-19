@@ -73,6 +73,7 @@ import SpriteMaterialDescriptor from './descriptors/Material/SpriteMaterialDescr
 import CameraHelperDescriptor from './descriptors/Object/Helper/CameraHelperDescriptor';
 import AxisHelperDescriptor from './descriptors/Object/Helper/AxisHelperDescriptor';
 import ArrowHelperDescriptor from './descriptors/Object/Helper/ArrowHelperDescriptor';
+import GridHelperDescriptor from './descriptors/Object/Helper/GridHelperDescriptor';
 
 class ElementDescriptorContainer {
   constructor(react3RendererInstance) {
@@ -159,6 +160,7 @@ class ElementDescriptorContainer {
       cameraHelper: new CameraHelperDescriptor(react3RendererInstance),
       axisHelper: new AxisHelperDescriptor(react3RendererInstance),
       arrowHelper: new ArrowHelperDescriptor(react3RendererInstance),
+      gridHelper: new GridHelperDescriptor(react3RendererInstance),
     };
   }
 }

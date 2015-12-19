@@ -5,7 +5,7 @@ import PropTypes from 'react/lib/ReactPropTypes';
 class GridHelperDescriptor extends Object3DDescriptor {
   constructor(react3Instance) {
     super(react3Instance);
-
+debugger;
     this.propTypes = {
       ...this.propTypes,
 
@@ -19,6 +19,7 @@ class GridHelperDescriptor extends Object3DDescriptor {
   }
 
   construct(props) {
+    debugger;
     const {
       size,
       step,
